@@ -4,3 +4,11 @@
 .justify-between {
     justify-content: space-between;
 }
+.p-px {
+    padding: 0.3rem;
+    background-color: red;
+    margin-left: 1rem;
+}
+.bg {
+    background-color: grey;
+}

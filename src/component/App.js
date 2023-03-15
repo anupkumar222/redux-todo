@@ -62,7 +62,7 @@ function App(props) {
                             <li>
                                 <input key={i} type='checkbox' id="${i}" />
                                 <label htmlFor="${i}">{ele.item}</label>
-                                <button onClick={() => handleDel(i)}>X</button>
+                                <button className="p-px" onClick={() => handleDel(i)}>X</button>
                             </li>
                         )
                     })}
@@ -70,7 +70,7 @@ function App(props) {
                 <ul>
                     {props.filteredTodo && searchText && props.filteredTodo.map((ele, i) => {
                         return (
-                            <div >
+                            <div className="bg" >
                                 <li className="flex-1 text-lg justify-between" >
                                     <input key={i}
                                         type='checkbox' id="${i}" />
